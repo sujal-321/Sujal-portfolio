@@ -85,7 +85,6 @@ export default function HomePage() {
 
   return (
     <main ref={pageRef} onPointerMove={movePageLight} onPointerLeave={resetPageLight}>
-      <a className="skip-link" href="#top">Skip to content</a>
       <div className="page-cursor-glow" aria-hidden="true" />
       <header className="nav-shell">
         <a className="brand" href="#top" aria-label="FlowState Agency home"><img src="/images/flowstate_logo_vibrant2.png" alt="FlowState Agency" /></a>
